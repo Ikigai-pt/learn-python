@@ -1,0 +1,16 @@
+{
+  "python.pythonPath": "${workspaceFolder}/env/bin/python",
+  "python.terminal.activateEnvironment": true,
+  // "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "shellLauncher.shells.osx": [
+    {
+        "shell": "bash",
+        "label": "python",
+        "launchName": "python",
+    },
+    {
+      "shell":"/usr/local/bin/fish",
+      "launchName": "fish",
+    }
+  ]
+}
